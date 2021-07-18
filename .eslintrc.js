@@ -2,7 +2,8 @@ module.exports = {
   'extends': [
     'eslint:recommended',
     'plugin:react/recommended',
-    'plugin:jest/recommended'
+    'plugin:jest/recommended',
+    'plugin:cypress/recommended'
   ],
   'env': {
     'browser': true,
@@ -23,6 +24,7 @@ module.exports = {
   },
   'plugins': [
     'react',
+    "cypress",
   ],
   'rules': {
     'indent': [
