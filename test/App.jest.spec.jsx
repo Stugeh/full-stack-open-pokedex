@@ -12,9 +12,9 @@ describe('<App />', () => {
     axiosMock.get.mockResolvedValueOnce(
       {
         data: {
-          results: [{ url: 'https://pokeapi.co/api/v2/pokemon/1/', name: 'bulbasaur', id: 1 }]
-        }
-      }
+          results: [{ url: 'https://pokeapi.co/api/v2/pokemon/1/', name: 'bulbasaur', id: 1 }],
+        },
+      },
     )
     await act(async () => {
       render(<App />)
