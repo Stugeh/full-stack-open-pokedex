@@ -24,7 +24,7 @@ module.exports = {
   },
   'plugins': [
     'react',
-    "cypress",
+    'cypress',
   ],
   'rules': {
     'indent': [
