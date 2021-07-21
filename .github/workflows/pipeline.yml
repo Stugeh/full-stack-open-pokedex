@@ -35,4 +35,4 @@ jobs:
           heroku_email: "tuukkaveteli@gmail.com"
           healthcheck: "https://pokedex-stuge.herokuapp.com/health"
           checkstring: "ok"
-          rollbackonghealthcheckfailed: true
+          rollbackonhealthcheckfailed: true
