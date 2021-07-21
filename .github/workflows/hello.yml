@@ -22,4 +22,4 @@ jobs:
         if: |
           true 
           && !contains(join(github.event.commits.*.message, ', '), '#skip')
-        run: echo "doesnt contain skip"
+        run: echo "doesnt contain skip."
